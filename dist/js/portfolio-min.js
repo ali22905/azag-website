@@ -1,0 +1,1 @@
+"use strict";document.getElementById("portfolio").classList.add("active"),document.getElementById("portfolio-mob").classList.add("active");let cards=document.querySelectorAll(".card");for(let t=0;t<cards.length;t++)cards[t].addEventListener("click",()=>{let e=cards[t].getAttribute("data-link");window.open(e,"_blank")});

@@ -1,0 +1,1 @@
+"use strict";document.getElementById("prices").classList.add("active"),document.getElementById("prices-mob").classList.add("active");let prices_cards=document.querySelectorAll(".card");for(let e=0;e<prices_cards.length;e++)prices_cards[e].addEventListener("click",()=>{let t=prices_cards[e].getAttribute("data-link");window.location.href=t});
